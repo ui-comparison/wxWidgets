@@ -21,9 +21,9 @@ HelloFrame::HelloFrame()
 	quitBtn->Bind(wxEVT_BUTTON, &HelloFrame::OnQuitBtn, this);
 
     wxBoxSizer* sizer = new wxBoxSizer(wxVERTICAL);
-    sizer->Add(textOutput, 1, wxEXPAND, 0);
-    sizer->Add(textInput, 0, wxEXPAND, 0);
-    sizer->Add(quitBtn, 0, wxEXPAND, 0);
+    sizer->Add(textOutput, 1, wxEXPAND | wxALL, 8);
+    sizer->Add(textInput, 0, wxEXPAND | wxLEFT | wxRIGHT | wxBOTTOM, 8);
+    sizer->Add(quitBtn, 0, wxEXPAND | wxLEFT | wxRIGHT | wxBOTTOM, 8);
     panel->SetSizer(sizer);
 
 	wxBoxSizer* frameSizer = new wxBoxSizer(wxVERTICAL);
