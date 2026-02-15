@@ -1,0 +1,13 @@
+{
+  "name": "uicomparison-wxwidgets",
+  "version": "0.1",
+  "description": "",
+  "homepage": "",
+  "license": "CC0-1.0",
+  "dependencies": [
+    {
+      "name": "wxwidgets",
+      "version>=": "3.3.1"
+    }
+  ]
+}
